@@ -1,0 +1,10 @@
+file_write_1 = open("D:\\my_directory\\my_file.txt", "w", encoding="UTF-8")
+file_write_1.write("My Employees")
+file_write_1.write("1. Toon")
+file_write_1.write("2. John")
+file_write_1.write("3. Barry")
+file_write_1.close()
+
+file_write_2 = open("D:\\my_directory\\my_file_2.txt", "w", encoding="UTF-8")
+file_write_2.writelines(["My Employees 2", "\n1. Tony", "\n2. Kate", "\n3. Bob"])
+file_write_2.close()
